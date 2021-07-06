@@ -1,0 +1,138 @@
+@media (max-width:1199px) {
+    .container{
+        max-width: 1199px;
+    }
+    .testimonial{
+        padding: 100px 0px;
+    }
+    .testimonial .row{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    .testimonial .col-3{
+        width: 50%;
+    }
+    .testimonial-info{
+        margin-top: 30px;
+    }
+    .brand{
+        padding: 0 0 0 100px;
+    }
+    .cherry-bar,.orange-bar{
+        position: absolute;
+        bottom: 30px;
+    }
+}
+@media (max-width:991px) {
+    .nav-link:not(:last-child){
+        margin-right: 20px;
+    }
+    .header-title{
+        font-weight: 900;
+        font-size: 45px;
+    }
+    .brand{
+        margin: auto;
+        padding: 0 30px 40px 40px;
+    }
+    .cherry-bar,.orange-bar{
+        bottom: 15px;
+    }
+    .cherry-title{
+        margin-bottom: 10px;
+    }
+    .testimonial{
+        padding: 60px 0px;
+    }
+}
+@media (max-width:767px) {
+    .cherry-bar{
+        width: 100%;
+    }
+    .testimonial-info{
+        width: 100%;
+        margin: 0;
+        padding:  0px 2px;
+    }
+    .nav-link:not(:last-child){
+        display: none;
+    }  
+}
+@media (max-width:565px) {
+    .button{
+        display: block;
+    }
+    .fruct {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+    .fruct .col-2{
+        width: 100%;
+    }
+    .brand{
+        text-align: center;
+        padding: 50px 24px;
+        
+    }
+    .fructis-text{
+        width: 100%;
+    }
+    .dishes{
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    }
+    .stand{
+        order: 3;
+    }
+    .dishes .col-2{
+        width: 100%;
+    }
+    .frutella{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .frutella .col-2{
+        width: 100%;
+        margin: -4px;
+    }
+    .testimonial .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .testimonial .col-3{
+        width: 100%;
+    }
+    .testimonial-info{
+        width: 100%;
+        padding: 0px 24px;
+        margin-top: 60px;
+    }
+    .testimonial-title{
+        margin: 0;
+    }
+    .testimonial-text{
+        margin: 32px 0px;
+    }
+    .info-title{
+        margin-bottom: 9px;
+    }
+    .products .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .products .col-4{
+        width: 50%;
+    }
+    .footer-menu{
+        padding: 0px 39px ;
+        display: flex;
+        justify-content: space-between;
+    }
+    .arrow{
+        margin-top: 52px;
+    }
+}
+@media (max-width:480px) {
+    
+}
